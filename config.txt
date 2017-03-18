@@ -1,5 +1,6 @@
-^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d\.\d{6}[+-]\d\d:\d\d				\033[36m
-\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d.\d\d\d\d\d\d [A-Z][A-Z]T 		\033[36m
-\S*E(rror|RROR)\S*												\033[31m
+^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d\.\d{6}[+-]\d\d:\d\d								\033[1m
+\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d.\d\d\d\d\d\d [A-Z][A-Z]T 							\033[1m
+\d\d/\d\d/\d\d \d\d:\d\d:\d\d											\033[1m
+\S*E(rror|RROR)\S*												\033[91m
 D(ebug|EBUG)\S*													\033[34m
-W(arning|ARNING)\S*												\033[93m
+W(arn(ing)?|ARN(ING)?)\S*											\033[93m
