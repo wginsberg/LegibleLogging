@@ -1,7 +1,7 @@
 import sys
 import re
 
-ANSI_DEFAULT = '\\033[39m'
+ANSI_DEFAULT = '\\033[0m'
 
 # Read config
 config_matcher = re.compile(r'^(.*?)(\s*)(\S+)$')
